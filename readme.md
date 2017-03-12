@@ -9,7 +9,8 @@ Slides and material for the presentation given on March, 16th 2017 at Googleplex
 * Node 6+ and npm installed
 
 ### Install
-execute `npm install`
+* go to `/slides`
+* execute `npm install`
 
 ### Run
-execute `npm start`
+* execute `npm start`
