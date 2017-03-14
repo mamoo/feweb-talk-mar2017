@@ -260,6 +260,28 @@
 				</section>
 
 				<section>
+					<h2>Debug function calls</h2>
+					<pre>
+						<code class="hljs" data-trim contenteditable>
+var Car = function(){
+	this.funcX = function(){
+		this.funcY();
+	}
+	this.funcY = function(){
+		this.funcZ();
+	}
+}
+var car = new Car();
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Monitor function calls</h2>
+					<pre><code class="hljs" data-trim contenteditable>monitor(func1);</code></pre>
+				</section>
+
+				<section>
 					<h2>Thank you!</h2>
 					<p>
 						Presentation is available on GitHub: <a href="https://github.com/mamoo/feweb-talk-mar2017">https://github.com/mamoo/feweb-talk-mar2017</a> 
